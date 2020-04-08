@@ -28,7 +28,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ## Note about design
 
-> **Note:** Could not complete the design because  didn't have the **Icons**.
+> **Note:** Could not complete the design because  didn't have the **Icons**, try testing in resolution 1920x1080 because the design was done with the exact value of XD elements specs.
 
 ## Build
 
