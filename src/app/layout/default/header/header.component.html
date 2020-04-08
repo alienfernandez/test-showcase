@@ -1,0 +1,20 @@
+<div class="app-default-header app-default-white-header">
+    <div class="app-default-logo-left-layout app-default-logo-left-black"></div>
+    <div class="app-header-item-blue"></div>
+    <div class="app-header-item-blue-text">
+        <a class="app-header-item-blue-ui" [routerLink]="['/', 'dashboard']">Notify me</a>
+    </div>
+
+    <div class="app-header-item1" *ngIf="!auth.getCurrentUser()">
+        <a class="app-header-item-text" [routerLink]="['/', 'login']">Login</a>
+    </div>
+    <div class="app-header-item1" *ngIf="auth.getCurrentUser()">
+        <a class="app-header-item-text" href="#" (click)="logout()">Logout</a>
+    </div>
+    <div class="app-header-item2">
+        <span class="app-header-item-text">MacBook Pro</span>
+    </div>
+    <div class="app-header-item3" >
+        <span class="app-header-item-text">iPhone</span>
+    </div>
+</div>
