@@ -3,14 +3,14 @@
 Show case to show the ability to create Angular applications from scratch using custom font.
 
 ## Abilities required:
-Create an application using either angular or react.
-Use the following fonts https://fonts.google.com/specimen/Poppins
-Use any routing library
-Make a register form with form validation. 
-Enable authentication( login and log out) 
-No backend necessary, you can fake the back end with a service hardcoding username and password. 
-Make sure to protect authorized routes.
-Use Git for version control.
+- Create an application using either angular or react.
+- Use the following fonts https://fonts.google.com/specimen/Poppins
+- Use any routing library
+- Make a register form with form validation. 
+- Enable authentication( login and log out) 
+- No backend necessary, you can fake the back end with a service hardcoding username and password. 
+- Make sure to protect authorized routes.
+- Use Git for version control.
 
 ## Development server
 
