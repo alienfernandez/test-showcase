@@ -25,10 +25,12 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 - `/register` - Application register form (just validated)
 - `/dashboard` - Application home dashboard (Secured route you can access it only if you have been logged in)
 
-
 ## Note about design
 
 > **Note:** Could not complete the design because  didn't have the **Icons**, try testing in resolution 1920x1080 because the design was done with the exact value of XD elements specs.
+
+## Demo
+You can watch a quick demo downloading 'demo.mov' posted in the root folder
 
 ## Build
 
