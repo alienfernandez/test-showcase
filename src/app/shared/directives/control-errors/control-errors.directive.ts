@@ -19,15 +19,16 @@ import { FormSubmitDirective } from '../form-submit/form-submit.directive';
 import { FORM_ERRORS } from '../../forms/form-default.errors';
 
 /**
- * @description 
- * Directive used to show/hide errors in form fields, can be used conjunction with 'appControlErrorContainer' directive to show the error in a 
- * different container, if you provide 'appFormSubmit' directive in your form the validation is also trigger when submit the form
- * 
+ * @description
+ * Directive used to show/hide errors in form fields, can be used conjunction with 'appControlErrorContainer' directive
+ *  to show the error in a different container, if you provide 'appFormSubmit' directive in your form the validation is
+ *  also trigger when submit the form
+ *
  * @input [customErrors: object]="{invalidKey: 'Error description'}" | invalidKey should match with your validator error key
  * @input [useTouchedState: boolean] Validate in every angular ngDoCheck call and the field has been touched
- * 
+ *
  * @usageNotes
- * 
+ *
  * ```html
  * <form class="form-horizontal" [formGroup]="formGroup" appFormSubmit (ngSubmit)="submit()">
  * <div class="cols-sm-10">

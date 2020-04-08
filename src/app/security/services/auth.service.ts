@@ -20,7 +20,7 @@ export class AuthService {
    * @param password Password
    */
   login(username: string, password: string): Observable<User> {
-    return (username == this.user && password == this.password) ?
+    return (username === this.user && password === this.password) ?
       of({ username: 'user', name: 'User', email: 'user@email.com' })
         .pipe(tap(u => this.currentUser = u)) :
       of(null);
