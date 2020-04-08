@@ -20,10 +20,10 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ### The following are the app routes
 
-> `/` - Application home
-> `/login` - Application login (Default user and password | user: user | password: user)
-> `/register` - Application register form (just validated)
-> `/dashboard` - Application home dashboard (Secured route you can access it only if you have been logged in)
+- `/` - Application home
+- `/login` - Application login (Default user and password | user: user | password: user)
+- `/register` - Application register form (just validated)
+- `/dashboard` - Application home dashboard (Secured route you can access it only if you have been logged in)
 
 
 ## Note about design
